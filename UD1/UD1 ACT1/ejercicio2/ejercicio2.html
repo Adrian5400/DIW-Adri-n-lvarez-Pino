@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio2</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+    <header>
+        <h1>Formulario de alta</h1>
+    </header>
+    <form id="formulario" action="formulario.php" method="POST">
+        <div class="lineaformulario">
+            <label for="nombre">Nombre</label> 
+            <div class="contenido">
+            <input type="text" list="nombres-comunes" autocomplete="off" id="nombre" size="30"><span class="asterisco"> *</span>
+            <datalist id="nombres-comunes">
+                <option value="José"></option>
+                <option value="David"></option>
+                <option value="Francisco"></option>
+                <option value="Manuel"></option>
+                <option value="Juan"></option>
+                <option value="Javier"></option>
+                <option value="Antonio"></option>
+                <option value="Javier"></option>
+                <option value="Luis"></option>
+                <option value="Daniel"></option>
+            </datalist></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="apellidos">Apellidos</label>
+            <div class="contenido"><input type="text" autocomplete="off" id="apellidos" size="30"><span class="asterisco"> *</span></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="fechanacimiento">Fecha de nacimiento</label>
+            <div class="contenido"><input type="date" id="fecha"></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="dni">DNI</label>
+            <div class="contenido"><input type="text" id="dni" placeholder="71732595E" pattern="[0-9]{8}[A-Za-z]{1}" size="30"></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="email">Email</label> 
+            <div class="contenido"><input type="email" autocomplete="off" id="email" size="30"><span class="asterisco"> *</span></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="contraseña">Contraseña</label> 
+            <div class="contenido"><input type="password" autocomplete="off" id="password" size="30"><span class="asterisco"> *</span></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="contraseña2">Contraseña
+                (Repitición)
+            </label> 
+            <div class="contenido"><input type="password" autocomplete="off" id="password2" size="30"><span class="asterisco"> *</span></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="web">Página web</label> 
+            <div class="contenido"><input type="url" autocomplete="off" id="web" size="30"></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="edad">Edad</label> 
+            <div class="contenido"><input type="number" min="10" max="100" step="5" id="edad" name="edad" style="width:50px;"></div>
+        </div>
+        <div class="lineaformulario">
+            <label for="genero">Género</label> 
+            <div class="contenido"><input type="radio" name="sexo" id="masculino">Masculino
+                <input type="radio" name="sexo" id="femenino">Femenino
+                <input type="radio" name="sexo" id="no-biniario">No binario
+            </div>
+        </div>
+        <div class="lineaformulario">
+            <div class="contenido"><input type="checkbox" id="suscribirse" name="subscribcion">Suscrbirme al boletín de novedades</div>
+        </div>
+        <div class="lineaformulario">
+            <div class="contenido"><input type="checkbox" id="info" name="informacion">Informarme sobre ofertas</div>
+        </div>
+        <div class="lineaformulario">
+            <div class="contenido"><label for="productos">Producto favorito</label><select name="productos" id="favoritos">
+                <option value="antibiotico">Elige uno...</option>
+                <option value="antibiotico">Antibioticos</option>
+                <option value="pastilla">Pastillas</option>
+                <option value="jarabe">Jarabes</option>
+                <option value="analgesico">Analgésicos</option>
+                <option value="tirita">Tiritas</option>
+                </select>
+                <span class="asterisco"> *</span>
+            </div>
+        </div>
+        <div class="lineaformulario">
+            <label for="comentario">Comentario</label> 
+            <div class="contenido"><input type="text" autocomplete="off" id="comentario" name="comentario" value="Introduce tu..." style="width:200px; height:150px;"></div>
+        </div>
+        <div class="lineaformulario">
+            <div class="contenido"><input type="submit" value="Enviar datos"></div>
+        </div>
+    </form>
+</body>
+</html>
