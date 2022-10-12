@@ -1,0 +1,9 @@
+#perro {
+    border: 60px solid transparent;
+    border-image: url('img/marco.png') 20% stretch;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('img/perrito.jpg');
+    width: 410px;
+    height: 410px;
+}

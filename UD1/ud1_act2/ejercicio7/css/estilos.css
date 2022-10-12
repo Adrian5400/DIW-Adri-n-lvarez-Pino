@@ -1,0 +1,8 @@
+#conjunto {
+    width: 800px;
+    height: 400px;
+    background-image: url('img/tienda.png'), url('img/tienda.png'), url('img/paisano.png'), url('img/fondo.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x; 
+    background-size: 10%, 10%, 30%, 75% 100%;
+    background-position: 100px 320px, 600px 340px, 250px 270px, 0;
+}

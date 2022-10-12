@@ -1,0 +1,44 @@
+.contenido{
+    display: flex;
+    background-color: gray;
+    border: 3px solid black;
+    padding: 2em;
+    justify-content: space-evenly;
+    background-size: contain;
+    width: 200px;
+}
+
+div > div {
+    height: 100px;
+    width: 100px;
+    background-image: url("img/sprite.png");
+}
+
+#youtube {
+    background-position: -210px 0;
+}
+
+#youtube:hover {
+    background-position: -210px 100px;
+}
+
+#instagram {
+    background-position: -315px 0;
+}
+
+#instagram:hover {
+    background-position: -315px 100px;
+}
+
+#facebook:hover {
+    /* background-position: bottom left; */
+    background-position: 0 100px;
+}
+
+#twitter {
+    background-position: -105px 0;
+}
+
+#twitter:hover {
+    background-position: -105px 100px;
+}

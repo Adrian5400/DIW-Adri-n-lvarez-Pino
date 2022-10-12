@@ -1,0 +1,58 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 400px;
+    background-image: url('img/sobre.jpg');
+}
+
+#nelson {
+    width: 145px;
+    height: 230px;
+    background-image: url('img/nelson.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    border-image: url('img/sello.png') 33%;
+    border-image-repeat: repeat;
+    transform: rotate(10deg);
+}
+
+#ralph {
+    width: 170px;
+    height: 280px;    
+    background-image: url('img/ralph.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    border-image: url('img/sello.png') 33%;
+    border-image-repeat: repeat;
+    transform: rotate(20deg);
+}
+
+#flanders {
+    width: 160px;
+    height: 230px;
+    background-image: url('img/flanders.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    border-image: url('img/sello.png') 33%;
+    border-image-repeat: repeat;
+    transform: rotate(-10deg);
+}
+
+#milhouse {
+    width: 150px;
+    height: 190px;
+    background-image: url('img/milhouse.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    border-image: url('img/sello.png') 33%;
+    border-image-repeat: repeat;
+}
+
+
+
