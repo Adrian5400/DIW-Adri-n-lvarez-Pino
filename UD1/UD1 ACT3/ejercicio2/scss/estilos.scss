@@ -1,0 +1,60 @@
+#contenedor {
+    background-color: rgb(161, 161, 161);
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+header {
+    background-color: rgb(37, 34, 34);
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h3 {
+    font-family: Bowlby One Sc;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    background-color: rgb(190, 190, 190);
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+p {
+    background-color: rgb(209, 208, 208);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px
+} 
+
+footer {
+    p {
+    background-color: rgb(37, 34, 34);
+    }
+    text-align: center;
+    font-family: Bowlby One Sc;
+    color: rgb(235, 235, 235);
+    width: 80%;
+    margin: 0 auto;
+}
