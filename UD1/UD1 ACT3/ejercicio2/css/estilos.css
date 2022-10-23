@@ -1,0 +1,46 @@
+#contenedor {
+  background-color: rgb(161, 161, 161);
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(37, 34, 34);
+}
+
+h1, h3 {
+  font-family: Bowlby One Sc;
+  color: white;
+  text-align: center;
+}
+
+article {
+  position: relative;
+  top: 10%;
+  background-color: rgb(190, 190, 190);
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+section {
+  background-color: rgb(190, 190, 190);
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+}
+
+img {
+  background-color: rgb(190, 190, 190);
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+p {
+  background-color: rgb(209, 208, 208);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
