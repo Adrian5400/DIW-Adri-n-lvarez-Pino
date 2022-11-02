@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+
+    .identidad-corporativa-small{
+        display: flex;
+        .logo{
+            background-image: url(../img/logo_small.png);
+            width: 150px;
+            height: 100px;
+        }
+
+        .nombre-empresa{
+            position: relative;
+            left: 30px;
+            top: 25px;
+            #camiones{
+                color: white;
+                font-size: 25px;
+            }
+        
+            #paco{
+                color: red;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .menu{
+        position: relative;
+        top: 35px;
+        right: 10px;
+        #inicio{
+            position: relative;
+            right: 15px;
+            color: orange;
+            font-size: 20px;
+            display: inline;
+        }
+        #contacto{
+            color: white;
+            font-size: 20px;
+            display: inline;
+        }
+    }
+}
+
+
