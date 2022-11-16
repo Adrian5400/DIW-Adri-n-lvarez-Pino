@@ -1,0 +1,33 @@
+#contenedor {
+  background-color: #071e26;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Roboto";
+}
+#contenedor header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  background-color: #0b2d39;
+  padding: 1em;
+  align-items: center;
+  color: white;
+}
+#contenedor header h1 {
+  font-size: 25px;
+}
+#contenedor header h2 {
+  position: relative;
+  right: 100px;
+  opacity: 0.3;
+}
+#contenedor header li {
+  display: inline;
+  padding: 10px;
+}
+#contenedor header li:hover {
+  text-decoration: underline;
+}
+#contenedor header #social {
+  position: relative;
+  padding-left: 270px;
+}

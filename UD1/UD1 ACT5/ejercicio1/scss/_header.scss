@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+#contenedor{
+    background-color: $content-background-color;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Roboto";
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        background-color: $header-background-color;
+        padding: 1em;
+        align-items: center;
+        color: white;
+
+     
+        h1{
+            font-size: 25px;
+        }
+
+        h2{
+            position: relative;
+            right: 100px;
+            opacity: 0.3;
+        }
+
+        li{
+            display: inline;
+            padding: 10px;  
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        #social{
+            position: relative;
+            padding-left: 270px;
+        }
+    }
+}
