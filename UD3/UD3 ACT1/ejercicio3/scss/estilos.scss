@@ -1,0 +1,14 @@
+@import 'header.scss';
+@import 'principal.scss';
+@import 'aside.scss';
+@import 'contacto.scss';
+@import 'footer.scss';
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    row-gap: 40px;
+
+    background-color: $primary-background-color;
+    font-family: $font;
+}

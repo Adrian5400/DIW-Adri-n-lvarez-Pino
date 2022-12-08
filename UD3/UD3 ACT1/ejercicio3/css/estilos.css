@@ -1,0 +1,171 @@
+header {
+  grid-column: 2;
+  background-color: #162b4d;
+  display: grid;
+  grid-template-columns: minmax(auto, 400px) auto 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1.5em;
+}
+header #logo {
+  color: white;
+  font-size: 3em;
+  white-space: nowrap;
+}
+header #logo span {
+  color: #d12766;
+}
+header #lema {
+  color: #657895;
+  font-size: 1.5em;
+}
+header nav {
+  color: white;
+  grid-column: 4;
+}
+header nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  justify-content: space-around;
+}
+header nav ul li {
+  white-space: nowrap;
+  font-size: 1.2em;
+}
+header nav ul li:hover {
+  text-decoration: underline;
+}
+header #social {
+  justify-self: end;
+}
+header #social i {
+  color: #657895;
+}
+
+main {
+  grid-column: 2;
+  display: grid;
+  row-gap: 40px;
+}
+main #principal {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+}
+main #principal #novedades {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main #principal #novedades article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+main #principal #novedades article img {
+  width: 100%;
+  height: 100%;
+}
+main #principal #novedades article .contenido {
+  padding: 20px;
+  display: grid;
+}
+main #principal #novedades article .contenido h3 {
+  font-size: 3em;
+  text-align: right;
+}
+main #principal #novedades article .contenido h2 {
+  font-size: 4em;
+}
+main #principal #novedades article .contenido p {
+  font-size: 1.8em;
+}
+main #principal #novedades article .rojo {
+  background-color: #b71757;
+}
+main #principal #novedades article .verde {
+  background-color: #0d7e71;
+}
+main #principal #novedades article .naranja {
+  background-color: #b1660e;
+}
+main #principal #novedades article .rosa {
+  background-color: #d12766;
+}
+main #principal #novedades article .azul {
+  background-color: #2d95bb;
+  grid-column: 1/-1;
+  row-gap: 50px;
+}
+main #principal aside {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+main #principal aside article {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+}
+main #principal aside article img {
+  width: 100%;
+  grid-column: 1/-1;
+}
+main #principal aside article h4 {
+  font-size: 2.8em;
+  grid-column: 2/3;
+}
+main #principal aside article p {
+  font-size: 1.6em;
+  grid-column: 2/3;
+}
+main #principal aside img {
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+}
+section #contacto {
+  grid-column: 2;
+  background-color: #162b4d;
+  color: white;
+  padding: 30px;
+  display: grid;
+  row-gap: 30px;
+}
+section #contacto h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+section #contacto .formulario {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  row-gap: 20px;
+}
+section #contacto .formulario label {
+  font-size: 1.2em;
+}
+section #contacto .formulario input {
+  height: 35px;
+}
+footer {
+  background-color: #162b4d;
+  color: white;
+  font-family: inherit;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer .nombre {
+  justify-self: end;
+}
+
+#contenedor {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  row-gap: 40px;
+  background-color: #0b192f;
+  font-family: "Roboto";
+}

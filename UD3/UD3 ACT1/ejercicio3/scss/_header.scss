@@ -1,0 +1,55 @@
+@import 'variables.scss';
+
+header {
+    grid-column: 2;
+    background-color: $secondary-background-color;
+    display: grid;
+    grid-template-columns: minmax(auto, 400px) auto 1fr 2fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em;
+
+    #logo {
+        color: white;    
+        font-size: 3em;
+        white-space: nowrap;
+
+        span {
+            color: $pink;
+        }
+    }
+
+    #lema {
+        color: $primary-color;
+        font-size: 1.5em;
+    }
+
+    nav {
+        color: white;
+        grid-column: 4;
+        ul {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            justify-content: space-around;
+
+            li {
+                white-space: nowrap;
+                font-size: 1.2em;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+
+    #social {
+        justify-self: end;
+        i {
+            color: $primary-color;
+        }
+    }
+}
