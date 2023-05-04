@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Stellar';
+    src: url("../font/Stellar-Regular.otf");
+  }
+
+  body {
+    font-family: "Stellar";
+  }
+
+#wrapper {
+    background: #f2f3f5;
+}
+
+header, #banner, main {
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+}
+
+.logo img {
+    width: 80%;
+} 
+
+.nav-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-grow: 3;
+}
+
+.nav-header a {
+    color: white;
+}
+
+.img-header {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-header .home {
+    display: flex;
+    flex-direction: column;
+    background: #008CC6;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .home:hover {
+    opacity: 0.7;
+  }
+  
+
+.nav-header .about {
+    display: flex;
+    flex-direction: column;
+    background: #FF6914;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .about:hover {
+    opacity: 0.7;
+  }
+  
+
+.nav-header .blog {
+    display: flex;
+    flex-direction: column;
+    background: #FFA000;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .blog:hover {
+  opacity: 0.7;
+}
+
+.nav-header .contact {
+    display: flex;
+    flex-direction: column;
+    background: #22C68B;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .contact:hover {
+    opacity: 0.7;
+  }
+
+#banner {
+    background: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#banner .adorno img {
+    width: 100%;
+}
+
+.texto h1 {
+    color: #008CC6;
+}
+
+.texto p {
+    color: #CFCFCF;
+}
+
+.boton {
+    display: inline-flex;
+    background: #008CC6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    opacity: 0.7;
+}
+
