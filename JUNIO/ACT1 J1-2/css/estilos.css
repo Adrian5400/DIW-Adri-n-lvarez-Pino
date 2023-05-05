@@ -140,3 +140,59 @@ header nav {
     opacity: 0.7;
 }
 
+main {
+    display: flex;
+    gap: 35px;
+}
+
+#seccion1 {
+    background: #008CC6;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#seccion2 {
+    background: #FF6914;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#seccion3 {
+    background: #FFA000;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.more {
+    display: flex;
+    justify-content: flex-end
+}
+
+.more img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.more img:hover{
+    opacity: 0.7;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    background: #CFCFCF;
+    padding: 20px;
+}
+
+.nav-footer a {
+    color: #008CC6;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.nav-footer a:hover {
+    text-decoration: underline;
+}
