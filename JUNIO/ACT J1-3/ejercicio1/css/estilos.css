@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Stellar';
+    src: url("../font/Stellar-Regular.otf");
+  }
+
+  p, h1 {
+    font-family: "Stellar";
+  }
+
+#wrapper {
+    background: #f2f3f5;
+}
+
+header, #banner, main {
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+header nav {
+    width: 100%;
+}
+
+.logo img {
+    width: 80%;
+} 
+
+
+.nav-header {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+.nav-header a {
+    color: white;
+}
+
+.img-header {
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+}
+
+.nav-header .home {
+    display: grid;
+    background: #008CC6;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .home:hover {
+    opacity: 0.7;
+  }
+  
+
+.nav-header .about {
+    display: grid;
+    justify-content: center;
+    background: #FF6914;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .about:hover {
+    opacity: 0.7;
+  }
+  
+
+.nav-header .blog {
+    display: grid;
+    flex-direction: column;
+    background: #FFA000;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .blog:hover {
+  opacity: 0.7;
+}
+
+.nav-header .contact {
+    display: grid;
+    flex-direction: column;
+    background: #22C68B;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.nav-header .contact:hover {
+    opacity: 0.7;
+  }
+  
+
+#banner {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    align-items: center;
+    box-shadow: 0px 12px 1px -5px #CFCFCF;
+    margin-bottom: 20px;
+}
+
+#banner .adorno img {
+    width: 100%;
+}
+
+.texto h1 {
+    color: #008CC6;
+}
+
+.texto p {
+    color: #CFCFCF;
+}
+
+.boton {
+    display: inline-flex;
+    background: #008CC6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    opacity: 0.7;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    gap: 35px;
+}
+
+
+#seccion1{
+    background: #008CC6;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#seccion2{
+    background: #FF6914;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#seccion3{
+    background: #FFA000;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.more {
+    display: grid;
+    justify-content: flex-end;
+}
+
+.more img:hover {
+    opacity: 0.7;
+}
+
+.more img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.nav-footer {
+    display: grid;
+    grid-template-columns: repeat(4,10%);
+    justify-content: center;
+    background: #CFCFCF;
+    padding: 20px 0;
+}
+
+.nav-footer a {
+    color: #008CC6;
+    font-weight: bold;
+    margin: 0 16px;
+}
+
+.nav-footer a:hover{
+    text-decoration: underline;
+}
