@@ -39,3 +39,33 @@ header nav ul li a {
   text-decoration: none;
   color: #45aed6;
 }
+
+#main-slider {
+  position: relative;
+  background: url("../css/img/banner/banner.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 400px;
+  padding: 1.2em;
+  color: #fff;
+}
+#main-slider h2 {
+  font-size: 2.2em;
+  text-align: center;
+  background-color: #45aed6;
+  padding: 15px;
+}
+#main-slider p {
+  font-size: 1.2em;
+  margin: 20px;
+  text-align: right;
+}
+#main-slider a {
+  background: #45aed6;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
