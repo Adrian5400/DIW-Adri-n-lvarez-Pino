@@ -69,3 +69,37 @@ header nav ul li a {
   margin-top: 20px;
   text-align: center;
 }
+
+#services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.2em;
+}
+#services .section-header {
+  text-align: center;
+  grid-column: 1/-1;
+  margin-bottom: 3.5em;
+}
+#services .section-header h2 {
+  font-size: 1.8em;
+  margin: 1em 0;
+}
+#services article {
+  padding: 2.5em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+#services article i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #45aed6;
+}
+#services article h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2E2E2E;
+  text-align: center;
+}
+#services article p {
+  text-align: center;
+}

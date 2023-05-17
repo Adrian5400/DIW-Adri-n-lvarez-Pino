@@ -1,0 +1,41 @@
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: $tam-base;
+  
+    .section-header {
+        text-align: center;
+        grid-column: 1 / -1;
+        margin-bottom: 3.5em;
+        
+        h2 {
+            font-size: 1.8em;
+            margin: 1em 0;
+        }
+    }
+  
+    article {
+        padding: 2.5em;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: $azul-claro;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: $negro;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+  }
+  
