@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../css/fonts/Roboto-Regular.ttf") format("truetype");
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2em;
+  background-color: #fff;
+}
+header a {
+  display: flex;
+  align-items: center;
+}
+header a #logo {
+  height: 50px;
+  margin-right: 10px;
+}
+header a h1 {
+  font-size: 28px;
+  color: #45aed6;
+  margin: 0;
+}
+header nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+}
+header nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #45aed6;
+}
