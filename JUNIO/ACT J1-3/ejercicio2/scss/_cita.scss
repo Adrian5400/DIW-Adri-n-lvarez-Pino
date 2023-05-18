@@ -1,0 +1,26 @@
+#meet-team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: $tam-base;
+  
+    .section-header {
+        text-align: center;
+        grid-column: 1 / -1;
+        margin-bottom: 2em;
+        
+        h2 {
+            font-size: 1.8em;
+            margin: 1em;
+        }
+    }
+
+    article{
+        background-color: $fondo-claro;
+        padding: $tam-base;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
