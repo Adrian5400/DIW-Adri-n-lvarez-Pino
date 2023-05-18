@@ -1,0 +1,23 @@
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $fondo-claro;
+    gap: 20px;
+    padding: $tam-base;
+  
+    .section-header {
+        text-align: center;
+        grid-column: 1 / -1;
+        margin-bottom: 2em;
+        
+        h2 {
+            font-size: 1.8em;
+            margin: 1em 0;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
