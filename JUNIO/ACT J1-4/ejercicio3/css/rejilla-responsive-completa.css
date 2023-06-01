@@ -30,14 +30,10 @@
 /* Media query para resoluciones entre 480 y 768 */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   #hamburguesa {
-    display: none;
-    visibility: hidden;
+    display: block
   }
   .nav-header a {
     width: 100% !important;
-  }
-  #menu-responsive li:not(:first-child) {
-    display: block !important;
   }
   .col-md-12 {
     grid-column-end: span 12;
@@ -114,6 +110,13 @@
 }
 /* Media query para resoluciones entre 769 y 1200 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  #menu-responsive li:not(:first-child) {
+    display: block !important;
+  }
+  #hamburguesa {
+    display: none;
+    visibility: hidden;
+  }
   .col-lg-12 {
     grid-column-end: span 12;
   }
@@ -189,6 +192,13 @@
 }
 /* Media query para resoluciones mayores que 1200 */
 @media screen and (min-width: 1024px) {
+  #menu-responsive li:not(:first-child) {
+    display: block !important;
+  }
+  #hamburguesa {
+    display: none;
+    visibility: hidden;
+  }
   .col-xl-12 {
     grid-column-end: span 12;
   }

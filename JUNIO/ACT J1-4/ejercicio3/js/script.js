@@ -5,6 +5,6 @@ function cargarPagina(){
 }
 
 function pulsa(){
-    document.getElementById("menu-responsive").classList.toggle("active");
+    document.getElementById("menu-responsive").classList.toggle("responsive");
 }
 
