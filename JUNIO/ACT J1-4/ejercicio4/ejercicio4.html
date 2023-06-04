@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />  
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" /> 
+    <script src="https://kit.fontawesome.com/1ef7a96eb9.js" crossorigin="anonymous"></script>   
+  </head>
+  <body>
+
+
+	<header id="cabecera" class="contenedor">
+    <a class="logo col-lg-2" href="#">Mi portfolio</a>
+     <nav class="col-lg-10">
+        <ul class="contenedor">
+          <li class="col-lg-2"><a href="#" >Home</a></li>
+          <li class="col-lg-2"><a href="#servicios">Servicios</a></li>
+          <li class="col-lg-2"><a href="#portfolio">Portfolio</a></li>
+          <li class="col-lg-2"><a href="#acerca-de">Acerca de </a></li>
+          <li class="col-lg-2"><a href="#contacto">Contacto</a></li>
+        </ul>
+     </nav>
+ </header>  <!-- #cabecera -->
+
+ <main id="wrapper">
+
+  <section id="servicios" class="contenedor">
+      <article class="servicio col-lg-4 flex">
+          <i class="fa fa-motorcycle"></i>
+          <div class="texto-servicio">
+            <h4>Diseño Gráfico y de marca</h4>
+            <p>Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+      </article>
+      <article class="servicio col-lg-4 flex">
+             <i class="fa fa-gears"></i>
+					   <div class="texto-servicio">
+						   <h4>Diseñador y desarrollador Web</h4>
+						   <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+					   </div>
+      </article>
+      <article class="servicio col-lg-4 flex">		
+            <i class="fa fa-heartbeat"></i>
+					  <div class="texto-servicio">
+						  <h4>Consultor de negocio</h4>
+						  <p>Metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+					  </div>  
+      </article>					
+    </section> <!-- #servicios -->
+
+    <section id="portfolio">
+        <h3>Últimos trabajos</h3>
+        <div class="galeria contenedor">
+         <img class="col-lg-4" src="img/galeria1.jpg" />
+			   <img class="col-lg-4" src="img/galeria2.jpg" />
+			   <img class="col-lg-4" src="img/galeria3.jpg" />
+			   <img class="col-lg-4" src="img/galeria4.jpg" />
+			   <img class="col-lg-4" src="img/galeria5.jpg" />
+			   <img class="col-lg-4" src="img/galeria6.jpg" />	 
+        </div>      
+			     
+    </section> <!-- #portfolio -->
+
+    <section id="about" class="contenedor">
+      <div class="espacio col-lg-6"></div>
+      <div id="texto-about" class="col-lg-6">
+        <h3>Sobre mi</h3>                   
+        <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          <br>
+          Metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>         
+        <a class="button" href="#contacto">Contrátame</a>
+      <div>
+    </section> <!-- #about -->
+
+    <div id="contacto">
+       <h3>Contactame</h3>
+        <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                
+        <form id="formulario-contacto" class="contenedor">
+            <input class="col-lg-12" type="email" placeholder="Nombre">
+            <input class="col-lg-12" type="password"  placeholder="Email">
+            <input class="col-lg-12" type="email"  placeholder="Sitio Web">
+            <textarea class="col-lg-12" rows="4" placeholder="Mensaje"></textarea>
+            <button class="col-lg-12" type="submit">Enviar</button>
+        </form>
+    </div> <!-- #contacto -->
+    </main>
+  </body>
+</html>
